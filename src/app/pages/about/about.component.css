@@ -1,0 +1,24 @@
+.welcome, .facts * {
+    color: white;
+}
+
+.about-body-wrapper {
+    margin-top: 4%;
+    margin-left: 15%
+}
+
+.about-body-wrapper h3 {
+    text-transform: uppercase;
+}
+
+.about-body-wrapper .text {
+    margin-top: 20px;
+}
+
+.about-body-wrapper .facts {
+    margin-top: 5%
+}
+
+.about-body-wrapper .fact-title {
+    text-transform: uppercase;
+}
