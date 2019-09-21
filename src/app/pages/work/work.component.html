@@ -1,3 +1,7 @@
-<p>
-  work works!
-</p>
+<section class="work-body-wrapper">
+    <div class="row work-row">
+        <div *ngFor="let item of workBody" class="col-sm-4">
+          <app-work-item [workData]="item"></app-work-item>
+        </div>
+    </div>
+</section>

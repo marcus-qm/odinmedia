@@ -16,6 +16,7 @@ import { OdinawardsComponent } from './pages/odinawards/odinawards.component';
 import { WorkComponent } from './pages/work/work.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HeaderComponent } from './layout/header/header.component';
+import { WorkItemComponent } from './shared/work-item/work-item.component';
 
 const config = {
   apiKey: "AIzaSyDRkicuhpIOuTVL8CdyigbTVht8zx8DxbM",
@@ -37,7 +38,8 @@ const config = {
     OdinawardsComponent,
     WorkComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    WorkItemComponent
   ],
   imports: [
     BrowserModule,
