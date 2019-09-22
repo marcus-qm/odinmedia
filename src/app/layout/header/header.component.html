@@ -1,7 +1,14 @@
-<div class="tabs is-right is-medium">
-  <ul>
-    <li *ngFor="let item of navItems" [class.is-active]="item.link === activeLink" routerLink="{{item.link}}"><a>
-        <div style="margin-right: 10px; margin-top: 5px"></div>{{item.name}}
-      </a></li>
-  </ul>
-</div>
+<section class="nav-container">
+    <nav class="navbar navbar-light">
+        <a class="navbar-brand" routerLink="/">
+            OM
+        </a>
+        <ul class="nav justify-content-end">
+            <li *ngFor="let item of navItems" class="nav-item" [class.is-active]="item.link === activeLink" routerLink="{{item.link}}">
+              <a class="nav-link">
+                <div style="margin-right: 10px; margin-top: 5px"></div>{{item.name}}
+              </a>
+            </li>        
+        </ul>
+    </nav>
+</section>
