@@ -1,0 +1,54 @@
+.work-preview {
+    position: relative;
+}
+
+.hero-overlay {
+    position: relative;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+    /* width: 250px;
+    height: 200px; */
+    cursor: pointer;
+}
+
+.img-overlay {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.overlay {
+    /* opacity: 0.4; */
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+
+    display: flex;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%;
+    height: 100%; */
+    /* border: white 15px solid; */
+}
+
+.text-wrapper {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay * {
+    color: white;
+}

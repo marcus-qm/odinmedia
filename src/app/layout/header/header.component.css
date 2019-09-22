@@ -1,0 +1,54 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+nav a {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-item .active {
+    text-decoration: underline;
+}
+
+.nav-item a:hover, .nav-item a:focus {
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 8px;
+    padding: .025rem 0.25rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .navbar-brand {
+        font-size: 28px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        padding: .5rem 1rem;
+    }   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {     
+    .navbar-brand {
+        font-size: 35px;
+    }
+}
