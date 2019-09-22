@@ -1,0 +1,9 @@
+/* CONTACT STYLES */
+
+.contact-body-wrapper {
+    margin-top: 5%
+}
+
+.contact-body-wrapper * {
+    color: white;
+}

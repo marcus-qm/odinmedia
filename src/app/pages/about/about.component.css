@@ -1,10 +1,8 @@
+/* ABOUT STYLES */
+/* Extra small devices (portrait phones, less than 576px) */
+
 .welcome, .facts * {
     color: white;
-}
-
-.about-body-wrapper {
-    margin-top: 4%;
-    margin-left: 15%
 }
 
 .about-body-wrapper h3 {
@@ -21,4 +19,64 @@
 
 .about-body-wrapper .fact-title {
     text-transform: uppercase;
+}
+
+.text {
+    font-size: 10px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.facts p {
+    font-size: 10px;
+}
+
+.facts .fact-title {
+    font-size: 12px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    p {
+        font-size: 12px;
+    } 
+
+    .facts p {
+        font-size: 12px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+@media (min-width: 992px) {    
+    h3 {
+        font-size: 26px;
+    }
+
+    .facts .fact-title {
+        font-size: 20px;
+    }
+     
+    p {
+        font-size: 16px;
+    } 
+
+    .facts p {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
 }

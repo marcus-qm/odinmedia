@@ -7,22 +7,30 @@ import { Component, OnInit, Input, HostListener } from '@angular/core';
 })
 export class WorkItemComponent implements OnInit {
 
+  showOverlay = false;
+
+  showModal = false;
+
   @Input() workData;
 
   @HostListener('mouseenter') 
   onMouseEnter() {
-    console.log('enter')
+    this.showOverlay = true;
   }
 
   @HostListener('mouseleave') 
   onMouseLeave() {
-    console.log('leave')
+    this.showOverlay = false;
   }
 
   constructor() { }
 
   ngOnInit() {
     console.log(this.workData)
+  }
+
+  openModal() {
+    this.showModal = !this.showModal;
   }
 
 }
