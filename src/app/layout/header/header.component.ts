@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
       "link": "/work"
     }, {
       "name": "Odin Awards",
-      "link": "/award"
+      "link": "/awards"
     }, {
       "name": "Blog",
       "link": "/blog"
