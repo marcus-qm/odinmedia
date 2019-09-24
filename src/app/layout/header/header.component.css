@@ -1,4 +1,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
+*:focus {
+    outline: none;
+}
 
 nav a {
     color: white;
@@ -8,13 +11,17 @@ nav a {
     font-size: 24px;
 }
 
-.nav-item .active {
-    text-decoration: underline;
+.nav-item {
+    border-bottom: 1px solid black;
 }
 
-.nav-item a:hover, .nav-item a:focus {
+.nav-item .active {
+    border-bottom: 1px solid white;
+}
+
+.nav-item:hover, .nav-item:focus {
     color: white;
-    text-decoration: underline;
+    border-bottom: 1px solid white;
 }
 
 .nav-link {
@@ -22,6 +29,14 @@ nav a {
     text-transform: uppercase;
     font-size: 8px;
     padding: .025rem 0.25rem;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+.navbar-brand:hover {
+    color: white;
 }
 
 /* Small devices (landscape phones, 576px and up) */
